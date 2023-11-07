@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+
+
+.Main {
+    display: flex;
+}
+
+
+.columnaright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  
+    background-color: #E8EBE4;
+}
+
+.logo-img {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img img {
+    margin-top: -5%;
+    width: 20%;
+    height: auto;
+}
+
+
+.parlog {
+
+    text-align: center;
+
+}
+
+.fpar {
+
+    font-weight: 600;
+    font-size: 39px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.secpar {
+
+    
+    font-size: 15px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.trdpar {
+
+   font-weight: 10;
+    font-size: 15px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    
+    flex-basis: 19%;
+    
+    background-color: #FFF;
+    
+    
+}
+
+
+
+.mainchat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 1px rgb(214, 209, 209);
+}
+
+
+.datoscontacto{
+
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.nombre {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    margin: 5% 0 0 0;
+}
+
+.estado {
+    font-family: 'Roboto Flex', sans-serif;
+    color: #b5b9af;
+    margin: 14% 0 0 -19%;
+    font-size: 12px;
+    
+}
+
+.icon{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.icon1 i {
+    margin: 150% 0 2% -250%;
+}
+
+.icon2 i {
+    margin: 160% 0 2% -190%;
+}
+.mainchat img {
+    
+    
+    margin: 5%;
+    width: 17%;
+    border-radius: 50%;
+}
+
+
+
+
+.mainchat2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 1px rgb(214, 209, 209);
+}
+
+.mainchat2 img {
+    
+    
+    margin: 5%;
+    width: 19%;
+    border-radius: 50%;
+}
+
+.nombre2 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    margin: 8% 0% 0 0%;
+}
+
+
+
+.chatline {
+    
+   
+    color: #000000;
+    margin: 16% 0 0 -22%;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 12px;
+}
+
+
+
+.botonDiv{
+    display: flex;
+    justify-content: center;
+    border: solid 1px rgb(214, 209, 209);
+    
+    
+}
+
+.botonNuevoChat{
+    margin: 10% 0 10% 0;
+    background-color: #a490d2;
+    border-color: #a490d2;
+    
+    height: 40px;
+    width: 160px;
+    color: #FFF;
+    font-family: 'Roboto Flex', sans-serif;
+    border: none;
+}
